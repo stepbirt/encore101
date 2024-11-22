@@ -76,3 +76,4 @@ To run tests, configure the `test` command in your `package.json` to the test ru
 ```bash
 encore test
 ```
+# encore101
