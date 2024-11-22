@@ -22,7 +22,7 @@ export const shortUrl = api(
   }
 );
 
-export const get = api(
+export const getUrl = api(
   { method: "GET", path: "/url/:id", expose: true },
   async ({ id }: { id: string }): Promise<URL> => {
     console.log(id, "id");
